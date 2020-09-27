@@ -1,0 +1,40 @@
+[
+    {
+        "name": "philcook/gtmetrix",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/philcook/php-gtmetrix.git",
+            "reference": "9a5c61449a0a42bc77188e752909608548cf292f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/philcook/php-gtmetrix/zipball/9a5c61449a0a42bc77188e752909608548cf292f",
+            "reference": "9a5c61449a0a42bc77188e752909608548cf292f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "apigen/apigen": "~4.1",
+            "phing/phing": "~2.11",
+            "phpunit/phpunit": "~4.6"
+        },
+        "time": "2018-05-25T20:33:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Entrecore\\GTMetrixClient\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "GTMetrix API client for PHP"
+    }
+]
